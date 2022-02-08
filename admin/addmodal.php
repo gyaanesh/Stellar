@@ -20,6 +20,26 @@ include_once 'include/sidebar.php';
                 <h4 class="card-title">Add New PLan</h4>
                 <form class="forms-sample">
                   <div class="form-group">
+                    <label for="exampleInputName1">SELECT BRAND</label>
+                    <select name="brandId" id="">
+                      <option value=""> Select Brand</option>
+                      <?
+                      // SELCT QUERY
+                      while (condition) 
+                      {?>
+                        <option value="brandIdHere"> car_brand</option>
+                      <?
+                      }
+                      ?>
+
+                      <option value=""></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                      <option value=""></option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
                     <label for="exampleInputName1">Plan Title</label>
                     <input type="text" class="form-control" id="exampleInputName1" placeholder="Name">
                   </div>
@@ -31,6 +51,16 @@ include_once 'include/sidebar.php';
                     <label for="basePriceInput">Base Price</label>
                     <input type="number" class="form-control" id="basePriceInput" placeholder="Base Price" min="1" >
                   </div>
+                  <div class="form-group">
+                        <label>File upload</label>
+                        <input type="file" name="img[]" class="file-upload-default">
+                        <div class="input-group col-xs-12">
+                          <input type="text" class="form-control file-upload-info" disabled="" placeholder="Upload Image">
+                          <span class="input-group-append">
+                            <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                          </span>
+                        </div>
+                      </div>
                   <button type="submit" class="btn btn-primary mr-2">Submit</button>
                   <button class="btn btn-light">Cancel</button>
                 </form>
