@@ -31,11 +31,7 @@ include_once 'include/sidebar.php';
                       <?
                       }
                       ?>
-
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
-                      <option value=""></option>
+                      
                     </select>
                   </div>
 
