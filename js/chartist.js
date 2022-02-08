@@ -1,4 +1,5 @@
 (function($) {
+
   //simple line
   'use strict';
   if ($('#ct-chart-line').length) {
