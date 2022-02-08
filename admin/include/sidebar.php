@@ -3,7 +3,7 @@
       <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="navbar-brand-wrapper d-flex align-items-center">
           <a class="navbar-brand brand-logo" href="../../index.html">
-            <isrc="../../images/logo.svg" alt="logo" class="logo-dark" />
+            <img src="../images/logo.svg" alt="logo" class="logo-dark" />
           </a>
           <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../images/logo-mini.svg" alt="logo" /></a>
         </div>
@@ -117,11 +117,9 @@
                 </div>
               </a>
             </li>
-            <li class="nav-item nav-category">
-              <span class="nav-link">Dashboard</span>
-            </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="../../index.html">
+              <a class="nav-link" href="<?php  ?>">
                 <span class="menu-title">Dashboard</span>
                 <i class="icon-screen-desktop menu-icon"></i>
               </a>
@@ -129,13 +127,13 @@
             <li class="nav-item nav-category"><span class="nav-link">UI Elements</span></li>
             <li class="nav-item">
               <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="menu-title">Basic UI Elements</span>
+                <span class="menu-title">Plan</span>
                 <i class="icon-layers menu-icon"></i>
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="planlist.php">All Plans</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="addplan.php">Add Plan</a></li>
                 </ul>
               </div>
             </li>

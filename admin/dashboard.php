@@ -4,6 +4,10 @@ include_once 'include/sidebar.php';
 ?>
         <!-- partial -->
         <div class="main-panel">
+          <?php 
+          
+          $base_dir = __DIR__;
+echo $base_dir; ?>
           <div class="content-wrapper">
             <div class="page-header">
               <h3 class="page-title"> Form elements </h3>
